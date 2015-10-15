@@ -25,25 +25,27 @@
                                     <segment title="Ba-Dun-tsss!"/>
                                 </segments>
                             </segmentedControl>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HNO-wZ-amN">
-                                <rect key="frame" x="16" y="150" width="568" height="24"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Yo mama so fat she went to KFC to get a bucket of chicken they asked her what size and she said the one on the roof" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Vm-Au-YeR">
+                                <rect key="frame" x="16" y="137" width="568" height="311"/>
                                 <animations/>
-                                <string key="text">Yo mama so fat she went to KFC to get a bucket of chicken they asked her what size and she said the one on the roof 
-
-source: http://www.jokes4us.com/yomamajokes/yomamasofatjokes.html</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="311" id="LIM-rG-jtI"/>
+                                </constraints>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="7Vm-Au-YeR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="117" id="33J-Xq-UkF"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jWc-uU-j41" secondAttribute="bottom" constant="20" id="5Pd-ea-qKX"/>
-                            <constraint firstItem="HNO-wZ-amN" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="60R-QB-ChS"/>
                             <constraint firstItem="jWc-uU-j41" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="dJz-Dv-JOu"/>
                             <constraint firstItem="jWc-uU-j41" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="gCA-T5-wOd"/>
-                            <constraint firstItem="HNO-wZ-amN" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oxd-Sr-hSS"/>
-                            <constraint firstItem="HNO-wZ-amN" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="130" id="smu-xo-2hL"/>
+                            <constraint firstItem="7Vm-Au-YeR" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="l2m-bB-exw"/>
+                            <constraint firstItem="7Vm-Au-YeR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oWb-In-4rn"/>
                         </constraints>
                     </view>
                 </viewController>
