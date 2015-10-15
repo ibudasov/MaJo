@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BCD9D61BD03B5000ECFD6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCD9D51BD03B5000ECFD6E /* AppDelegate.swift */; };
+		52BCD9D81BD03B5000ECFD6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCD9D71BD03B5000ECFD6E /* ViewController.swift */; };
+		52BCD9DB1BD03B5000ECFD6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD9D91BD03B5000ECFD6E /* Main.storyboard */; };
+		52BCD9DD1BD03B5000ECFD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */; };
+		52BCD9E01BD03B5000ECFD6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD9DE1BD03B5000ECFD6E /* LaunchScreen.xib */; };
+		52BCD9EC1BD03B5000ECFD6E /* MaJoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCD9EB1BD03B5000ECFD6E /* MaJoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52BCD9E61BD03B5000ECFD6E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52BCD9C81BD03B5000ECFD6E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52BCD9CF1BD03B5000ECFD6E;
+			remoteInfo = MaJo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52BCD9D01BD03B5000ECFD6E /* MaJo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaJo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BCD9D41BD03B5000ECFD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BCD9D51BD03B5000ECFD6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52BCD9D71BD03B5000ECFD6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52BCD9DA1BD03B5000ECFD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52BCD9DF1BD03B5000ECFD6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52BCD9E51BD03B5000ECFD6E /* MaJoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaJoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52BCD9EA1BD03B5000ECFD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BCD9EB1BD03B5000ECFD6E /* MaJoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaJoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52BCD9CD1BD03B5000ECFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BCD9E21BD03B5000ECFD6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52BCD9C71BD03B5000ECFD6E = {
+			isa = PBXGroup;
+			children = (
+				52BCD9D21BD03B5000ECFD6E /* MaJo */,
+				52BCD9E81BD03B5000ECFD6E /* MaJoTests */,
+				52BCD9D11BD03B5000ECFD6E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52BCD9D11BD03B5000ECFD6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD9D01BD03B5000ECFD6E /* MaJo.app */,
+				52BCD9E51BD03B5000ECFD6E /* MaJoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52BCD9D21BD03B5000ECFD6E /* MaJo */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD9D51BD03B5000ECFD6E /* AppDelegate.swift */,
+				52BCD9D71BD03B5000ECFD6E /* ViewController.swift */,
+				52BCD9D91BD03B5000ECFD6E /* Main.storyboard */,
+				52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */,
+				52BCD9DE1BD03B5000ECFD6E /* LaunchScreen.xib */,
+				52BCD9D31BD03B5000ECFD6E /* Supporting Files */,
+			);
+			path = MaJo;
+			sourceTree = "<group>";
+		};
+		52BCD9D31BD03B5000ECFD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD9D41BD03B5000ECFD6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52BCD9E81BD03B5000ECFD6E /* MaJoTests */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD9EB1BD03B5000ECFD6E /* MaJoTests.swift */,
+				52BCD9E91BD03B5000ECFD6E /* Supporting Files */,
+			);
+			path = MaJoTests;
+			sourceTree = "<group>";
+		};
+		52BCD9E91BD03B5000ECFD6E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52BCD9EA1BD03B5000ECFD6E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52BCD9CF1BD03B5000ECFD6E /* MaJo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BCD9EF1BD03B5000ECFD6E /* Build configuration list for PBXNativeTarget "MaJo" */;
+			buildPhases = (
+				52BCD9CC1BD03B5000ECFD6E /* Sources */,
+				52BCD9CD1BD03B5000ECFD6E /* Frameworks */,
+				52BCD9CE1BD03B5000ECFD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MaJo;
+			productName = MaJo;
+			productReference = 52BCD9D01BD03B5000ECFD6E /* MaJo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52BCD9E41BD03B5000ECFD6E /* MaJoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52BCD9F21BD03B5000ECFD6E /* Build configuration list for PBXNativeTarget "MaJoTests" */;
+			buildPhases = (
+				52BCD9E11BD03B5000ECFD6E /* Sources */,
+				52BCD9E21BD03B5000ECFD6E /* Frameworks */,
+				52BCD9E31BD03B5000ECFD6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52BCD9E71BD03B5000ECFD6E /* PBXTargetDependency */,
+			);
+			name = MaJoTests;
+			productName = MaJoTests;
+			productReference = 52BCD9E51BD03B5000ECFD6E /* MaJoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52BCD9C81BD03B5000ECFD6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Igor Budasov";
+				TargetAttributes = {
+					52BCD9CF1BD03B5000ECFD6E = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					52BCD9E41BD03B5000ECFD6E = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 52BCD9CF1BD03B5000ECFD6E;
+					};
+				};
+			};
+			buildConfigurationList = 52BCD9CB1BD03B5000ECFD6E /* Build configuration list for PBXProject "MaJo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52BCD9C71BD03B5000ECFD6E;
+			productRefGroup = 52BCD9D11BD03B5000ECFD6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52BCD9CF1BD03B5000ECFD6E /* MaJo */,
+				52BCD9E41BD03B5000ECFD6E /* MaJoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52BCD9CE1BD03B5000ECFD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCD9DB1BD03B5000ECFD6E /* Main.storyboard in Resources */,
+				52BCD9E01BD03B5000ECFD6E /* LaunchScreen.xib in Resources */,
+				52BCD9DD1BD03B5000ECFD6E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BCD9E31BD03B5000ECFD6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BCD9CC1BD03B5000ECFD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCD9D81BD03B5000ECFD6E /* ViewController.swift in Sources */,
+				52BCD9D61BD03B5000ECFD6E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52BCD9E11BD03B5000ECFD6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCD9EC1BD03B5000ECFD6E /* MaJoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52BCD9E71BD03B5000ECFD6E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52BCD9CF1BD03B5000ECFD6E /* MaJo */;
+			targetProxy = 52BCD9E61BD03B5000ECFD6E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52BCD9D91BD03B5000ECFD6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BCD9DA1BD03B5000ECFD6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52BCD9DE1BD03B5000ECFD6E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52BCD9DF1BD03B5000ECFD6E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52BCD9ED1BD03B5000ECFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52BCD9EE1BD03B5000ECFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52BCD9F01BD03B5000ECFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaJo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52BCD9F11BD03B5000ECFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MaJo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52BCD9F31BD03B5000ECFD6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaJoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaJo.app/MaJo";
+			};
+			name = Debug;
+		};
+		52BCD9F41BD03B5000ECFD6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MaJoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MaJo.app/MaJo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52BCD9CB1BD03B5000ECFD6E /* Build configuration list for PBXProject "MaJo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BCD9ED1BD03B5000ECFD6E /* Debug */,
+				52BCD9EE1BD03B5000ECFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52BCD9EF1BD03B5000ECFD6E /* Build configuration list for PBXNativeTarget "MaJo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BCD9F01BD03B5000ECFD6E /* Debug */,
+				52BCD9F11BD03B5000ECFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52BCD9F21BD03B5000ECFD6E /* Build configuration list for PBXNativeTarget "MaJoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52BCD9F31BD03B5000ECFD6E /* Debug */,
+				52BCD9F41BD03B5000ECFD6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52BCD9C81BD03B5000ECFD6E /* Project object */;
+}
