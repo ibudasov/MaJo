@@ -26,14 +26,14 @@
                                 </segments>
                             </segmentedControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Yo mama so fat she went to KFC to get a bucket of chicken they asked her what size and she said the one on the roof" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Vm-Au-YeR">
-                                <rect key="frame" x="16" y="137" width="568" height="311"/>
+                                <rect key="frame" x="16" y="220" width="568" height="228"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="311" id="LIM-rG-jtI"/>
+                                    <constraint firstAttribute="height" constant="228" id="LIM-rG-jtI"/>
                                 </constraints>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zwY-dc-uFy">
@@ -59,7 +59,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="8" id="1b3-Ld-Fks"/>
-                            <constraint firstItem="7Vm-Au-YeR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="117" id="33J-Xq-UkF"/>
+                            <constraint firstItem="7Vm-Au-YeR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="33J-Xq-UkF"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jWc-uU-j41" secondAttribute="bottom" constant="20" id="5Pd-ea-qKX"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="74n-es-ldb"/>
                             <constraint firstItem="12d-91-dKr" firstAttribute="leading" secondItem="zwY-dc-uFy" secondAttribute="trailing" constant="8" id="UBf-Zi-B7N"/>
