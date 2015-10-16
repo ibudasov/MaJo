@@ -10,10 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var jokeItself: UITextView!
+
+    @IBAction func getJoke(sender: UIButton) {
+    }
     
-    @IBOutlet weak var getJoke: UISegmentedControl!
-
-    @IBOutlet weak var playSound: UISegmentedControl!
-
+    @IBAction func playSound(sender: UIButton) {
+    }
 }
 

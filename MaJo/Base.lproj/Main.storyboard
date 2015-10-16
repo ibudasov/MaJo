@@ -17,14 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="jWc-uU-j41">
-                                <rect key="frame" x="16" y="552" width="568" height="29"/>
-                                <animations/>
-                                <segments>
-                                    <segment title="Get joke"/>
-                                    <segment title="Ba-Dun-tsss!"/>
-                                </segments>
-                            </segmentedControl>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Yo mama so fat she went to KFC to get a bucket of chicken they asked her what size and she said the one on the roof" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Vm-Au-YeR">
                                 <rect key="frame" x="16" y="220" width="568" height="228"/>
                                 <animations/>
@@ -47,27 +39,46 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WiG-0k-7hJ">
+                                <rect key="frame" x="16" y="550" width="58" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Get joke">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="getJoke:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="gRd-S2-o5Z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F15-zW-72D">
+                                <rect key="frame" x="473" y="550" width="111" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Ba - dum - tsss!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="playSound:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="tmg-kG-GTl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="1b3-Ld-Fks"/>
                             <constraint firstItem="7Vm-Au-YeR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="200" id="33J-Xq-UkF"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="jWc-uU-j41" secondAttribute="bottom" constant="20" id="5Pd-ea-qKX"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="F15-zW-72D" secondAttribute="bottom" constant="20" id="4Vm-2C-hWb"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="86P-gA-pAP"/>
-                            <constraint firstItem="jWc-uU-j41" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="dJz-Dv-JOu"/>
+                            <constraint firstItem="WiG-0k-7hJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="M8c-fm-9Hr"/>
+                            <constraint firstItem="F15-zW-72D" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="MIg-s8-ySx"/>
                             <constraint firstItem="eTh-hE-Mmf" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="5" id="fF7-c7-0eM"/>
-                            <constraint firstItem="jWc-uU-j41" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="gCA-T5-wOd"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="leading" secondItem="eTh-hE-Mmf" secondAttribute="trailing" constant="8" id="hYl-03-SmQ"/>
                             <constraint firstItem="7Vm-Au-YeR" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="l2m-bB-exw"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="o1Q-c9-hV4"/>
                             <constraint firstItem="7Vm-Au-YeR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oWb-In-4rn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="WiG-0k-7hJ" secondAttribute="bottom" constant="20" id="sUe-xJ-EJl"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="getJoke" destination="jWc-uU-j41" id="DBt-Vx-i56"/>
                         <outlet property="jokeItself" destination="7Vm-Au-YeR" id="Y69-wD-LY2"/>
-                        <outlet property="playSound" destination="jWc-uU-j41" id="z1w-rv-l49"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
