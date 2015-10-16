@@ -12,9 +12,22 @@ class ViewController: UIViewController {
     @IBOutlet weak var jokeItself: UITextView!
 
     @IBAction func getJoke(sender: UIButton) {
+        jokeItself.text = getRandomJoke()
     }
     
     @IBAction func playSound(sender: UIButton) {
+        jokeItself.text = "Ba - dum - tssss! Awesome joke!"
+    }
+    
+    func getRandomJoke() -> String {
+        let pullOfJokes = [
+            "test 1",
+            "test 2"
+        ]
+        
+        var randomId = Int(arc4random_uniform(UInt32(pullOfJokes.count)))
+        
+        return pullOfJokes[randomId]
     }
 }
 
