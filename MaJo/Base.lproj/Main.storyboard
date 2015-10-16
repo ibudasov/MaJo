@@ -64,6 +64,11 @@
                             <constraint firstItem="7Vm-Au-YeR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="oWb-In-4rn"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="getJoke" destination="jWc-uU-j41" id="DBt-Vx-i56"/>
+                        <outlet property="jokeItself" destination="7Vm-Au-YeR" id="Y69-wD-LY2"/>
+                        <outlet property="playSound" destination="jWc-uU-j41" id="z1w-rv-l49"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
