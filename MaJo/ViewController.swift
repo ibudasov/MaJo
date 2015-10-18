@@ -9,14 +9,24 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var jokeItself: UITextView!
+    @IBOutlet weak var jokeItself: UITextView?
+    
+    var jokeItselfValue: String {
+        get {
+            return jokeItself!.text
+        }
+        set {
+            // newValue - is magic variable, like set(newValue)
+            jokeItself!.text = newValue
+        }
+    }
 
     @IBAction func getJoke(sender: UIButton) {
-        jokeItself.text = getRandomJoke()
+        jokeItselfValue = getRandomJoke()
     }
     
     @IBAction func playSound(sender: UIButton) {
-        jokeItself.text = "Ba - dum - tssss! \n \n Awesome joke!"
+        jokeItselfValue = "Ba - dum - tssss! \n \n Awesome joke!"
     }
     
     func getRandomJoke() -> String {
