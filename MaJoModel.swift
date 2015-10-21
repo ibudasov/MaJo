@@ -39,7 +39,7 @@ class MaJoModel {
     ]
     
     func getRandomJoke() -> String {
-        var randomId = Int(arc4random_uniform(UInt32(pullOfJokes.count)))
+        let randomId = Int(arc4random_uniform(UInt32(pullOfJokes.count)))
         return pullOfJokes[randomId]
     }
 }
