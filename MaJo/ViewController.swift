@@ -9,14 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var jokeItself: UITextView?
-    
+
+    @IBOutlet var jokeItself: UILabel?
     let model = MaJoModel()
     var easternEuropeMode = false
-    
     var jokeItselfValue: String {
         get {
-            return jokeItself!.text
+            return jokeItself!.text!
         }
         set {
             // newValue - is magic variable, like set(newValue)
