@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         }
     }
 
+    override func viewDidLoad() {
+        super.viewDidLoad();
+        jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
+    }
+
     @IBAction func getJoke(sender: UIButton) {
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
