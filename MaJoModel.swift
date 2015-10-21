@@ -9,7 +9,7 @@
 import Foundation
 
 class MaJoModel {
-    let pullOfJokes = [
+    let pullOfMamaJokes = [
         "Yo mama's so big her belly button's got an echo.",
         "Yo mama's so big she cant wear an X jacket cause choppers keep landing on her back",
         "Yo mama's so big she uses I-95 for a Slip 'n Slide",
@@ -38,8 +38,19 @@ class MaJoModel {
         "Yo mama's so fat she gets clothes in three sizes: extra large, jumbo, and oh-my-god-it's-coming-towards-us!"
     ]
     
-    func getRandomJoke() -> String {
-        let randomId = Int(arc4random_uniform(UInt32(pullOfJokes.count)))
-        return pullOfJokes[randomId]
+    let pullOfSafeJokes = [
+        "Some safe joke",
+        "Another one"
+    ]
+    
+    func getRandomJoke(easternEuropeMode: Bool) -> String {
+        return (easternEuropeMode)
+            ? pullOfSafeJokes[getRandomId(pullOfSafeJokes)]
+            : pullOfMamaJokes[getRandomId(pullOfMamaJokes)]
     }
+    
+    func getRandomId(pullOfJokes: [String]) -> Int {
+        return Int(arc4random_uniform(UInt32(pullOfJokes.count)))
+    }
+    
 }

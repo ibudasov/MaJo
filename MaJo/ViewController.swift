@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var jokeItself: UITextView?
     
     let model = MaJoModel()
+    var easternEuropeMode = false
     
     var jokeItselfValue: String {
         get {
@@ -24,12 +25,15 @@ class ViewController: UIViewController {
     }
 
     @IBAction func getJoke(sender: UIButton) {
-        jokeItselfValue = model.getRandomJoke()
+        jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
     
     @IBAction func playSound(sender: UIButton) {
         jokeItselfValue = "Ba - dum - tssss! \n \n Awesome joke!"
     }
     
+    @IBAction func switchMode(sender: UISwitch) {
+        easternEuropeMode = (sender.on)
+    }
 }
 
