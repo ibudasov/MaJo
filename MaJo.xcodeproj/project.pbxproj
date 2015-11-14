@@ -81,6 +81,7 @@
 		52BCD9D21BD03B5000ECFD6E /* MaJo */ = {
 			isa = PBXGroup;
 			children = (
+				52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */,
 				52FD28971BF72EA600D28B27 /* Sounds */,
 				52B4FEE91BD3FCE000C23704 /* MaJoModel.swift */,
 				52BCD9D71BD03B5000ECFD6E /* ViewController.swift */,
@@ -93,7 +94,6 @@
 		52BCD9D31BD03B5000ECFD6E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */,
 				52BCD9DE1BD03B5000ECFD6E /* LaunchScreen.xib */,
 				52BCD9D51BD03B5000ECFD6E /* AppDelegate.swift */,
 				52BCD9D41BD03B5000ECFD6E /* Info.plist */,
