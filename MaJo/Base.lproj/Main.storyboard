@@ -90,6 +90,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="baDumTsssImage" destination="eiQ-Ye-syX" id="boC-zP-0rN"/>
                         <outlet property="jokeItself" destination="1Sm-iQ-v1A" id="QRP-Ur-n1L"/>
                     </connections>
                 </viewController>

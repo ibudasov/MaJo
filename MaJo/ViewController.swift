@@ -13,6 +13,7 @@ import AVFoundation
 class ViewController: UIViewController {
 
     @IBOutlet var jokeItself: UILabel?
+    @IBOutlet var baDumTsssImage: UIImageView!
 
     let model = MaJoModel()
 
@@ -29,22 +30,26 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad();
+        baDumTsssImage.hidden = true
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
 
     @IBAction func getJoke(sender: UIButton) {
         jokeItself!.hidden = false
+        baDumTsssImage.hidden = true
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
     
     @IBAction func playSound(sender: UIButton) {
         jokeItself!.hidden = true
+        baDumTsssImage.hidden = false
         SKAction.playSoundFileNamed("Ba-dum-tss-Tu-dum-tsss.mp3", waitForCompletion: false)
     }
     
     @IBAction func switchMode(sender: UISwitch) {
         easternEuropeMode = (sender.on)
         jokeItself!.hidden = false
+        baDumTsssImage.hidden = true
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
 }
