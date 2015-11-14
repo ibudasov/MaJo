@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func getJoke(sender: UIButton) {
+        jokeItself!.hidden = false
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
     
@@ -43,6 +44,7 @@ class ViewController: UIViewController {
     
     @IBAction func switchMode(sender: UISwitch) {
         easternEuropeMode = (sender.on)
+        jokeItself!.hidden = false
         jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
 }
