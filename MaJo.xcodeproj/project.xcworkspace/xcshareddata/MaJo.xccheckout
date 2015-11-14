@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>159FA2D3-CB54-476B-B675-4C5A69799A9A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>MaJo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E09CFF29D5B6A41579CC589AA905BC1E0D7CF6B2</key>
 		<string>github.com:ibudasov/MaJo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>MaJo.xcodeproj/project.xcworkspace</string>
+	<string>MaJo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E09CFF29D5B6A41579CC589AA905BC1E0D7CF6B2</key>

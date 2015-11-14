@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     
     @IBAction func switchMode(sender: UISwitch) {
         easternEuropeMode = (sender.on)
-        jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)        
+        jokeItselfValue = model.getRandomJoke(self.easternEuropeMode)
     }
 }
 
