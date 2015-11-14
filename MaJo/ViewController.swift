@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func playSound(sender: UIButton) {
-        jokeItselfValue = "Ba - dum - tssss! \n \n Awesome joke!"
+        jokeItself!.hidden = true
         SKAction.playSoundFileNamed("Ba-dum-tss-Tu-dum-tsss.mp3", waitForCompletion: false)
     }
     
