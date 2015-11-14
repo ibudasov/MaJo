@@ -14,6 +14,7 @@
 		52BCD9DD1BD03B5000ECFD6E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD9DC1BD03B5000ECFD6E /* Images.xcassets */; };
 		52BCD9E01BD03B5000ECFD6E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52BCD9DE1BD03B5000ECFD6E /* LaunchScreen.xib */; };
 		52BCD9EC1BD03B5000ECFD6E /* MaJoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BCD9EB1BD03B5000ECFD6E /* MaJoTests.swift */; };
+		52FD28991BF72EE900D28B27 /* Ba-dum-tss-Tu-dum-tsss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52FD28981BF72EE900D28B27 /* Ba-dum-tss-Tu-dum-tsss.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		52BCD9E51BD03B5000ECFD6E /* MaJoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MaJoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BCD9EA1BD03B5000ECFD6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52BCD9EB1BD03B5000ECFD6E /* MaJoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaJoTests.swift; sourceTree = "<group>"; };
+		52FD28981BF72EE900D28B27 /* Ba-dum-tss-Tu-dum-tsss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ba-dum-tss-Tu-dum-tsss.mp3"; path = "Sounds/Ba-dum-tss-Tu-dum-tsss.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		52BCD9D21BD03B5000ECFD6E /* MaJo */ = {
 			isa = PBXGroup;
 			children = (
+				52FD28971BF72EA600D28B27 /* Sounds */,
 				52B4FEE91BD3FCE000C23704 /* MaJoModel.swift */,
 				52BCD9D71BD03B5000ECFD6E /* ViewController.swift */,
 				52BCD9D91BD03B5000ECFD6E /* Main.storyboard */,
@@ -113,6 +116,14 @@
 				52BCD9EA1BD03B5000ECFD6E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52FD28971BF72EA600D28B27 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				52FD28981BF72EE900D28B27 /* Ba-dum-tss-Tu-dum-tsss.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52FD28991BF72EE900D28B27 /* Ba-dum-tss-Tu-dum-tsss.mp3 in Resources */,
 				52BCD9DB1BD03B5000ECFD6E /* Main.storyboard in Resources */,
 				52BCD9E01BD03B5000ECFD6E /* LaunchScreen.xib in Resources */,
 				52BCD9DD1BD03B5000ECFD6E /* Images.xcassets in Resources */,

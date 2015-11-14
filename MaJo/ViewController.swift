@@ -7,11 +7,15 @@
 //
 
 import UIKit
+import SpriteKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
     @IBOutlet var jokeItself: UILabel?
+
     let model = MaJoModel()
+
     var easternEuropeMode = false
     var jokeItselfValue: String {
         get {
@@ -34,6 +38,7 @@ class ViewController: UIViewController {
     
     @IBAction func playSound(sender: UIButton) {
         jokeItselfValue = "Ba - dum - tssss! \n \n Awesome joke!"
+        SKAction.playSoundFileNamed("Ba-dum-tss-Tu-dum-tsss.mp3", waitForCompletion: false)
     }
     
     @IBAction func switchMode(sender: UISwitch) {
