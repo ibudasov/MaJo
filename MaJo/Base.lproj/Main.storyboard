@@ -60,15 +60,24 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baDumTsss" translatesAutoresizingMaskIntoConstraints="NO" id="eiQ-Ye-syX">
+                                <rect key="frame" x="180" y="234" width="240" height="128"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="SVT-1S-3zo"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="eiQ-Ye-syX" firstAttribute="centerX" secondItem="1Sm-iQ-v1A" secondAttribute="centerX" id="0qE-Mx-gbK"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="1b3-Ld-Fks"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="F15-zW-72D" secondAttribute="bottom" constant="20" id="4Vm-2C-hWb"/>
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="86P-gA-pAP"/>
                             <constraint firstItem="1Sm-iQ-v1A" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="34" id="CbV-xX-hVx"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="1Sm-iQ-v1A" secondAttribute="bottom" constant="58" id="Hoh-Uh-LLX"/>
+                            <constraint firstItem="1Sm-iQ-v1A" firstAttribute="centerY" secondItem="eiQ-Ye-syX" secondAttribute="centerY" id="Ig5-bo-4BD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1Sm-iQ-v1A" secondAttribute="trailing" constant="4" id="KRy-eg-36l"/>
                             <constraint firstItem="WiG-0k-7hJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="M8c-fm-9Hr"/>
                             <constraint firstItem="F15-zW-72D" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="MIg-s8-ySx"/>
@@ -77,6 +86,7 @@
                             <constraint firstItem="zwY-dc-uFy" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="o1Q-c9-hV4"/>
                             <constraint firstAttribute="leadingMargin" secondItem="1Sm-iQ-v1A" secondAttribute="leading" constant="-4" id="rkl-yM-9op"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="WiG-0k-7hJ" secondAttribute="bottom" constant="20" id="sUe-xJ-EJl"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="eiQ-Ye-syX" secondAttribute="bottom" constant="238" id="vVK-vf-gYQ"/>
                         </constraints>
                     </view>
                     <connections>
@@ -88,4 +98,7 @@
             <point key="canvasLocation" x="572" y="385"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="baDumTsss" width="1280" height="720"/>
+    </resources>
 </document>
