@@ -32,10 +32,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WiG-0k-7hJ">
-                                <rect key="frame" x="20" y="532" width="110" height="48"/>
+                                <rect key="frame" x="20" y="532" width="64" height="48"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Get joke">
+                                <state key="normal" title="Joke">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -43,10 +43,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F15-zW-72D">
-                                <rect key="frame" x="406" y="532" width="178" height="48"/>
+                                <rect key="frame" x="497" y="532" width="87" height="48"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Ba-dum-tsss!">
+                                <state key="normal" title="Sound">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
